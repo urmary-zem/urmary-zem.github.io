@@ -170,11 +170,6 @@ body {
   display: flex;
 }
 
-.section-news-1 {
-  margin: 15px 0;
-  height: 2460px;
-}
-
 .section-left {
   width: 240px;
   float: left;
@@ -187,7 +182,7 @@ body {
 }
 
 .profile-photo {
-  background-image: url(https://pp.userapi.com/c626522/v626522243/1a7dd/QxBnMbYSwJA.jpg);
+  background-image: url();
   height: 230px;
   background-size: cover;
   background-position: -25px center;
@@ -195,14 +190,13 @@ body {
 }
 
 .profile-info {
-  padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .heading {
   margin: 0;
   padding-bottom: 15px;
-  font-size: 18px;
+  font-size: 17.3px;
   font-weight: 500;
 }
 
@@ -260,10 +254,11 @@ body {
 .news a {
   text-align: left;
   font-size: 16px;
+  color: #014591;
 }
 
 .p-text {
-  margin-top: 25px;
+  margin-top: 17px;
   font-size: 14px;
 }
 
