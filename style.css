@@ -395,6 +395,79 @@ form {
 }
 
 .footer {
-  height: 190px;
+  height: 150px;
   background: whitesmoke;
+}
+
+.footer-float {
+  float: left;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-left: 30px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.footer-right {
+  float: right;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-right: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+.social li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+
+.social li a {
+  height: 50px;
+  width: 50px;
+}
+
+.social .icon-vk {
+  position: relative;
+  display: inline-block;
+}
+
+.icon-vk {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 24px;
+  height: 14px;
+  background-image: url(img/icon-vk.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.social .icon-ok {
+  position: relative;
+  display: inline-block;
+}
+
+.icon-ok {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 24px;
+  height: 14px;
+  background-image: url(img/icon-ok.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
